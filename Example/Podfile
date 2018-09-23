@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WobbingButton_Example' do
+  pod 'WobbingButton', :path => '../'
+
+  target 'WobbingButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

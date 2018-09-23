@@ -1,0 +1,22 @@
+{
+  "name": "WobbingButton",
+  "version": "0.1.0",
+  "summary": "A short description of WobbingButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/erkekin/WobbingButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "erkekin": "erkekin@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/erkekin/WobbingButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WobbingButton/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - WobbingButton (0.1.0)
+
+DEPENDENCIES:
+  - WobbingButton (from `../`)
+
+EXTERNAL SOURCES:
+  WobbingButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WobbingButton: ad40cc0810579af219b04ae1505128350fe87eac
+
+PODFILE CHECKSUM: ca75ad0e175d618aea9d63ad0330be0c77347c73
+
+COCOAPODS: 1.5.2
