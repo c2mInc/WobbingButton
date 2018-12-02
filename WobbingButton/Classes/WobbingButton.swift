@@ -17,6 +17,7 @@ class WobbingControl:UIControl{
 
     private var controlState : ControlState = .identity {
         didSet{
+            guard oldValue != controlState else {return}
             switch controlState {
             case .scaled:
                 UIView.animate(withDuration: 0.1) {
@@ -40,10 +41,9 @@ class WobbingControl:UIControl{
             return imageView.image
         }
         set{
-            imageView.image = image
+            imageView.image = newValue
         }
     }
-
 
     @IBInspectable
     var actsFast :Bool = false
@@ -56,26 +56,29 @@ class WobbingControl:UIControl{
         }
     }
 
-    @objc func longPressed(){
+    var onAwakeFromNib: (() -> Void)? = nil
+
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        onAwakeFromNib?()
+    }
+
+    func longPressed(){
         self.onLongPressAction?()
     }
     fileprivate func buildImageView() {
-        onTapAction = { [weak self] in
+        onTapAction = { [weak self] _ in
             self?.sendActions(for: .allTouchEvents)
         }
         isUserInteractionEnabled = true
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
         addSubview(imageView)
-        if #available(iOS 9.0, *) {
-            imageView.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
-            imageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
-            imageView.rightAnchor.constraint(equalTo: rightAnchor, constant: 0).isActive = true
-            imageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 0).isActive = true
-        } else {
-            // Fallback on earlier versions
-        }
- }
+        imageView.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
+        imageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 0).isActive = true
+        imageView.rightAnchor.constraint(equalTo: rightAnchor, constant: 0).isActive = true
+        imageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 0).isActive = true
+    }
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -117,13 +120,13 @@ class WobbingControl:UIControl{
             tapIfTouchIsAround()
             self.transform = CGAffineTransform(scaleX: self.scale, y: self.scale)
             UIView.animate(withDuration: 0.1, animations: {
-                self.transform = CGAffineTransform.identity
+                self.controlState = .identity
             }) { _ in
 
             }
         }else {
             UIView.animate(withDuration: 0.1, animations: {
-                self.transform = CGAffineTransform.identity
+                self.controlState = .identity
             }) { _ in
                 tapIfTouchIsAround()
             }
