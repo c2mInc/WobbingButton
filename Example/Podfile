@@ -1,3 +1,4 @@
+platform :ios, '9.0'
 use_frameworks!
 
 target 'WobbingButton_Example' do
@@ -5,7 +6,5 @@ target 'WobbingButton_Example' do
 
   target 'WobbingButton_Tests' do
     inherit! :search_paths
-
-    
   end
 end

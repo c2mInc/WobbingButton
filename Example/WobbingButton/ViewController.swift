@@ -7,18 +7,13 @@
 //
 
 import UIKit
+import WobbingButton
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    @IBOutlet weak var buttonWithTitle: WobbingControl! {didSet{
+        buttonWithTitle.layer.cornerRadius = 10
+        }}
+    @IBOutlet weak var buttonWithImage: WobbingControlWithImage!
+    @IBOutlet weak var buttonRounded: RoundedWobbingControl!
 }
 

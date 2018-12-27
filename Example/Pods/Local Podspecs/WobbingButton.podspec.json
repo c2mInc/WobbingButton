@@ -1,8 +1,9 @@
 {
   "name": "WobbingButton",
   "version": "0.1.0",
-  "summary": "A short description of WobbingButton.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "A must have UIButton replacement.",
+  "swift_version": "4.2",
+  "description": "UIButton is dead. Replace it with my awesome WobbingButton.",
   "homepage": "https://github.com/erkekin/WobbingButton",
   "license": {
     "type": "MIT",
@@ -15,8 +16,10 @@
     "git": "https://github.com/erkekin/WobbingButton.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/erkekin",
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "WobbingButton/Classes/**/*"
+  "source_files": "WobbingButton/Classes/*",
+  "frameworks": "UIKit"
 }
