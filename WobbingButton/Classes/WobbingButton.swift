@@ -55,7 +55,9 @@ public class WobbingButton: UIControl {
     }
 
     public var onAwakeFromNib: (() -> Void)? = nil
+    public override func prepareForInterfaceBuilder() {
 
+    }
     override public func awakeFromNib() {
         super.awakeFromNib()
         onAwakeFromNib?()
@@ -118,8 +120,10 @@ public class WobbingButton: UIControl {
 public class WobbingControlWithIcon: WobbingButton {
 
     public var imageView : UIImageView = {
-        return UIImageView()
+        let iw = UIImageView()
+        return iw
     }()
+
     @IBInspectable
     public var image:UIImage? {
         get{
@@ -137,7 +141,6 @@ public class WobbingControlWithIcon: WobbingButton {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         buildImageView()
-        debugPrint("buildImageView")
     }
 
     private func setImageView(imageView: UIImageView) {
@@ -157,12 +160,14 @@ public class WobbingControlWithIcon: WobbingButton {
         setImageView(imageView: imageView)
         isUserInteractionEnabled = true
     }
-
+    override public var intrinsicContentSize: CGSize {return imageView.bounds.size}
 }
 
 @IBDesignable
 public class RoundedWobbingControl: WobbingButton {
+
     override public func awakeFromNib() {
         layer.cornerRadius = bounds.size.height / 2
     }
+
 }
