@@ -10,10 +10,16 @@ import UIKit
 import WobbingButton
 
 class ViewController: UIViewController {
-    @IBOutlet weak var buttonWithTitle: WobbingControl! {didSet{
-        buttonWithTitle.layer.cornerRadius = 10
-        }}
-    @IBOutlet weak var buttonWithImage: WobbingControlWithImage!
+    @IBOutlet weak var buttonWithTitle: WobbingButton!
+    @IBOutlet weak var buttonWithImage: WobbingControlWithIcon!
     @IBOutlet weak var buttonRounded: RoundedWobbingControl!
+
+    @IBAction func buttonTapped(_ sender: Any) {
+        performSegue(withIdentifier: "next", sender: nil)
+    }
+
+    @IBAction func roundedButtONTapped(_ sender: RoundedWobbingControl) {
+        debugPrint("roundedButtONTapped")
+    }
 }
 
