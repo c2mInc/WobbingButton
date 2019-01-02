@@ -9,16 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'WobbingButton'
   s.version          = '0.1.0'
-  s.summary          = 'A must have UIButton replacement.'
+  s.summary          = 'A must have UIButton replacement. It wobbs too!'
   s.swift_version    = '4.2'
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-UIButton is dead. Replace it with my awesome WobbingButton.
+UIButton is not enough. Replace it.
+
                        DESC
 
   s.homepage         = 'https://github.com/erkekin/WobbingButton'
@@ -38,5 +33,4 @@ UIButton is dead. Replace it with my awesome WobbingButton.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
