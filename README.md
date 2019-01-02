@@ -1,6 +1,7 @@
 # WobbingButton
 
-UIButton is not enough. Replace it.
+UIButton is not enough. Replace it now.
+
 WobbingButton is a UIControl, a hassle free storyboard friendly UI component.
 You could set corner radius directly from storyboard as well as wobble scale.
 
@@ -25,14 +26,22 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'WobbingButton'
 ```
-Drag a UIView into a viewcontroller, change its class type to WobbingButton, RoundedWobbingButton or WobbingControlWithIcon. Add a background color, you are set, start wobbling.
 
-# RoundedWobbingButton
+Drag a UIView into a viewcontroller, change its class type to `WobbingButton`, `RoundedWobbingButton` or `WobbingControlWithIcon`. Add a background color, you are set, start wobbling.
+
+### WobbingButton
+`WobbingButton` is a UIControl subclass.
+
+![RoundedWobbingButton` has rounded left and right corners](https://github.com/erkekin/WobbingButton/blob/master/ss2.png?raw=true)
+
+### RoundedWobbingButton
 `RoundedWobbingButton` is a WobbingButton subclass, it has rounded left and right corners.
+
 ![RoundedWobbingButton` has rounded left and right corners](https://github.com/erkekin/WobbingButton/blob/master/ss3.png?raw=true)
 
-# WobbingControlWithIcon
+### WobbingControlWithIcon
 `WobbingControlWithIcon` is too a WobbingButton subclass, it is best used with monochrome icons, set tintColor in storyboard.
+
 ![WobbingControlWithIcon` is best used with monochrome icons.](https://github.com/erkekin/WobbingButton/blob/master/ss4.png?raw=true)
 
 ## Basic Usage
@@ -55,6 +64,7 @@ wobbingButton.onLongPressAction = { [weak self] in
 ## Author
 
 Connected2.me
+
 erkekin, erkekin@gmail.com
 
 ## License
