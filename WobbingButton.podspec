@@ -9,11 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = 'WobbingButton'
   s.version          = '0.0.1'
-  s.summary          = 'A must have UIButton replacement. It wobbs too!'
+  s.summary          = 'A storyboard friendly UIButton replacement. It wobbs too!'
   s.swift_version    = '4.2'
   s.description      = <<-DESC
 UIButton is not enough. Replace it.
-
+WobbingButton is a UIControl, a hassle free storyboard friendly UI component.
+You could set corner radius directly from storyboard. Notice how it "wobbles"!
+RoundedWobbingButton is a WobbingButton subclass, it has rounded left and right corners.
+WobbingControlWithIcon is a WobbingButton subclass, is best used with monochrome icons, set tintColor in storyboard.
                        DESC
 
   s.homepage         = 'https://github.com/erkekin/WobbingButton'
