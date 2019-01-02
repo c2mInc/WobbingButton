@@ -25,12 +25,36 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'WobbingButton'
 ```
+Drag a UIView into a viewcontroller, change its class type to WobbingButton, RoundedWobbingButton or WobbingControlWithIcon. Add a background color, you are set, start wobbling.
 
+# RoundedWobbingButton
 `RoundedWobbingButton` is a WobbingButton subclass, it has rounded left and right corners.
+![RoundedWobbingButton` has rounded left and right corners](https://github.com/erkekin/WobbingButton/blob/master/ss3.png?raw=true)
+
+# WobbingControlWithIcon
 `WobbingControlWithIcon` is too a WobbingButton subclass, it is best used with monochrome icons, set tintColor in storyboard.
+![WobbingControlWithIcon` is best used with monochrome icons.](https://github.com/erkekin/WobbingButton/blob/master/ss4.png?raw=true)
+
+## Basic Usage
+You can handle taps.
+```swift
+let wobbingButton = WobbingButton(frame: ...)
+wobbingButton.onTapAction = { [weak self] in
+    self?.wobbingButtonTapped()
+}
+```
+
+Even long presses.
+```swift
+let wobbingButton = WobbingButton(frame: ...)
+wobbingButton.onLongPressAction = { [weak self] in
+    self?.wobbingButtonLongPressed()
+}
+```
 
 ## Author
 
+Connected2.me
 erkekin, erkekin@gmail.com
 
 ## License
