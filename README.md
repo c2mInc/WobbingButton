@@ -7,9 +7,14 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Try it!
+
+`pod try 'WobbingButton'` 
+
+This will open up an example project which you'll have a quick insight about he library.
 
 ## Requirements
+iOS9+
 
 ## Installation
 
