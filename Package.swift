@@ -9,8 +9,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "WobbingButton",
-            dependencies: ["my-lib"]
+            name: "WobbingButton"
         ),
     ]
 )
