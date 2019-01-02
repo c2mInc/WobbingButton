@@ -5,7 +5,7 @@ UIButton is not enough. Replace it now.
 WobbingButton is a UIControl, a hassle free storyboard friendly UI component.
 You could set corner radius directly from storyboard as well as wobble scale.
 
-![WobbingButton: A lightweight storyboard friendly UIButton replacement.](https://github.com/erkekin/WobbingButton/blob/master/WobbingButton.gif?raw=true)
+![WobbingButton: A lightweight storyboard friendly UIButton replacement.](https://github.com/c2mInc/WobbingButton/blob/master/WobbingButton.gif?raw=true)
 
 ## Example
 
@@ -32,19 +32,20 @@ Drag a UIView into a viewcontroller, change its class type to `WobbingButton`, `
 ### WobbingButton
 `WobbingButton` is a UIControl subclass.
 
-![RoundedWobbingButton` has rounded left and right corners](https://github.com/erkekin/WobbingButton/blob/master/ss2.png?raw=true)
+![RoundedWobbingButton` has rounded left and right corners](https://github.com/c2mInc/WobbingButton/blob/master/ss2.png?raw=true)
 
 ### RoundedWobbingButton
 `RoundedWobbingButton` is a WobbingButton subclass, it has rounded left and right corners.
 
-![RoundedWobbingButton` has rounded left and right corners](https://github.com/erkekin/WobbingButton/blob/master/ss3.png?raw=true)
+![RoundedWobbingButton` has rounded left and right corners](https://github.com/c2mInc/WobbingButton/blob/master/ss3.png?raw=true)
 
 ### WobbingControlWithIcon
 `WobbingControlWithIcon` is too a WobbingButton subclass, it is best used with monochrome icons, set tintColor in storyboard.
 
-![WobbingControlWithIcon` is best used with monochrome icons.](https://github.com/erkekin/WobbingButton/blob/master/ss4.png?raw=true)
+![WobbingControlWithIcon` is best used with monochrome icons.](https://github.com/c2mInc/WobbingButton/blob/master/ss4.png?raw=true)
 
 ## Basic Usage
+
 You can handle taps.
 ```swift
 let wobbingButton = WobbingButton(frame: ...)
@@ -61,11 +62,15 @@ wobbingButton.onLongPressAction = { [weak self] in
 }
 ```
 
+
+## Requirements
+
+* iOS 9.0+
+* Xcode 8.0+
+* Swift 3.0+
+
 ## Author
-
-Connected2.me
-
-erkekin, erkekin@gmail.com
+[Connected2.me](http://connected2.me) / <a href="mailto:erkekin@gmail.com">Erk Ekin</a> <a href="https://twitter.com/erkekin">@erkekin</a>
 
 ## License
 
