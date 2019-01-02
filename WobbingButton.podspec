@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WobbingButton'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A must have UIButton replacement. It wobbs too!'
   s.swift_version    = '4.2'
   s.description      = <<-DESC
