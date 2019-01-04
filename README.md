@@ -69,6 +69,7 @@ wobbingButton.onLongPressAction = { [weak self] in
 
 ## Author
 [Connected2.me](http://connected2.me) / <a href="mailto:erkekin@gmail.com">Erk Ekin</a> <a href="https://twitter.com/erkekin">@erkekin</a>
+Awesome logo: <a href="https://twitter.com/berilKarabulut">@berilKarabulut</a>
 
 ## License
 
