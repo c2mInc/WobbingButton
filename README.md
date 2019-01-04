@@ -1,4 +1,4 @@
-# WobbingButton
+![WobbingButton](https://github.com/c2mInc/WobbingButton/blob/master/wobbingbutton_logo.png?raw=true)
 
 UIButton is not enough. Replace it a lightweight control, the WobbingButton.
 
