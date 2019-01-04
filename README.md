@@ -1,6 +1,6 @@
 ![WobbingButton](https://github.com/c2mInc/WobbingButton/blob/master/wobbingbutton_logo.png?raw=true)
 
-UIButton is not enough. Replace it a lightweight control, the WobbingButton.
+UIButton is not enough. Replace it with a lightweight control, the WobbingButton.
 
 WobbingButton is a subclass of UIControl, it is a hassle free, storyboard friendly UI component.
 You could set corner radius directly from storyboard as well as wobble scale, handle target functions as closures, drag drop nested components. Unchain the limits of UIButton.
@@ -69,6 +69,7 @@ wobbingButton.onLongPressAction = { [weak self] in
 
 ## Author
 [Connected2.me](http://connected2.me) / <a href="mailto:erkekin@gmail.com">Erk Ekin</a> <a href="https://twitter.com/erkekin">@erkekin</a>
+
 Awesome logo: <a href="https://twitter.com/berilKarabulut">@berilKarabulut</a>
 
 ## License
