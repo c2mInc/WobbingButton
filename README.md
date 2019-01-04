@@ -1,9 +1,9 @@
 # WobbingButton
 
-UIButton is not enough. Replace it now.
+UIButton is not enough. Replace it a lightweight control, the WobbingButton.
 
-WobbingButton is a UIControl, a hassle free storyboard friendly UI component.
-You could set corner radius directly from storyboard as well as wobble scale.
+WobbingButton is a subclass of UIControl, it is a hassle free, storyboard friendly UI component.
+You could set corner radius directly from storyboard as well as wobble scale, handle target functions as closures, drag drop nested components. Unchain the limits of UIButton.
 
 ![WobbingButton: A lightweight storyboard friendly UIButton replacement.](https://github.com/c2mInc/WobbingButton/blob/master/WobbingButton.gif?raw=true)
 
@@ -13,7 +13,7 @@ Try it!
 
 `pod try 'WobbingButton'` 
 
-This will open up an example project which you'll have a quick insight about he library.
+This will open up an example project which you'll have a quick insight about the library.
 
 ## Installation
 
@@ -23,8 +23,7 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'WobbingButton'
 ```
-
-Drag a UIView into a viewcontroller, change its class type to `WobbingButton`, `RoundedWobbingButton` or `WobbingControlWithIcon`. Add a background color, you are set, start wobbling.
+Alternatively drag and drop WobbingButton.swift file into your project.
 
 ### WobbingButton
 `WobbingButton` is a UIControl subclass.
@@ -43,7 +42,10 @@ Drag a UIView into a viewcontroller, change its class type to `WobbingButton`, `
 
 ## Basic Usage
 
-You can handle taps.
+Drag a UIView into a viewcontroller, change its class type to `WobbingButton`, `RoundedWobbingButton` or `WobbingControlWithIcon`. Add a background color, you are set, start wobbling.
+
+Sometimes it's quite useful to assign closures rather than adding target to methods. WobbingButton provides `onTapAction` and `onLongPressAction` closures to handle those actions gracefully. In addition to touch events like `.touchUpInside`, `.touchDown`, it works with tap and long press closures as well. 
+
 ```swift
 let wobbingButton = WobbingButton(frame: ...)
 wobbingButton.onTapAction = { [weak self] in
