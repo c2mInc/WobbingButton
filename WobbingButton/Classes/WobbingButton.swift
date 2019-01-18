@@ -48,7 +48,7 @@ public class WobbingButton: UIControl {
     public var onTapAction: (() -> Void)? = nil
     public var onLongPressAction: (() -> Void)? = nil {
         didSet{
-            let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(WobbingButton.longPressed))
+            let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPressed(recognizer:)))
             self.isUserInteractionEnabled = true
             self.addGestureRecognizer(longPressGesture)
         }
@@ -63,8 +63,10 @@ public class WobbingButton: UIControl {
         onAwakeFromNib?()
     }
 
-    @objc public func longPressed(){
-        onLongPressAction?()
+    @objc public func longPressed(recognizer: UILongPressGestureRecognizer) {
+        if recognizer.state == .began {
+            onLongPressAction?()
+        }
     }
 
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
