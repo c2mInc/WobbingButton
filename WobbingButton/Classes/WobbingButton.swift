@@ -9,13 +9,13 @@
 import UIKit
 
 @IBDesignable
-public class WobbingButton: UIControl {
-
+open class WobbingButton: UIControl {
+    
     public enum ControlState{
         case scaled
         case identity
     }
-
+    
     @IBInspectable
     public var cornerRadius: CGFloat = 5.0 {
         didSet {
@@ -37,58 +37,59 @@ public class WobbingButton: UIControl {
             }
         }
     }
-
+    
     @IBInspectable
     public var scale: CGFloat = 0.92
-
+    
     @IBOutlet public weak var titleLabel : UILabel?
-
+    
     @IBInspectable
     public var actsFast :Bool = false
     public var onTapAction: (() -> Void)? = nil
     public var onLongPressAction: (() -> Void)? = nil {
-        didSet{
+        didSet {
             let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(longPressed(recognizer:)))
             self.isUserInteractionEnabled = true
             self.addGestureRecognizer(longPressGesture)
         }
     }
-
+    
+    public var onLayoutSubviews: (() -> Void)? = nil
     public var onAwakeFromNib: (() -> Void)? = nil
-    public override func prepareForInterfaceBuilder() {
-
+    open override func prepareForInterfaceBuilder() {
+        
     }
-    override public func awakeFromNib() {
+    override open func awakeFromNib() {
         super.awakeFromNib()
         onAwakeFromNib?()
     }
-
+    
     @objc public func longPressed(recognizer: UILongPressGestureRecognizer) {
         if recognizer.state == .began {
             onLongPressAction?()
         }
     }
-
-    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    
+    override open func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesBegan(touches, with: event)
         controlState = .scaled
     }
-
+    
     public func touchIsAround(touches: Set<UITouch>) -> Bool{
         return touches.filter{bounds.insetBy(dx: -30, dy: -30).contains($0.location(in: self))}.count > 0
     }
-
-    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    
+    override open func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesMoved(touches, with: event)
-
+        
         if touchIsAround(touches: touches){
             controlState = .scaled
         }else{
             controlState = .identity
         }
     }
-
-    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    
+    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         func tapIfTouchIsAround(){
             if touchIsAround(touches: touches) {
@@ -102,7 +103,7 @@ public class WobbingButton: UIControl {
             UIView.animate(withDuration: 0.1, animations: {
                 self.controlState = .identity
             }) { _ in
-
+                
             }
         }else {
             UIView.animate(withDuration: 0.1, animations: {
@@ -112,20 +113,27 @@ public class WobbingButton: UIControl {
             }
         }
     }
-
-    override public func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
+    
+    override open func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesCancelled(touches, with: event)
         controlState = .identity
     }
+    
+    override open func layoutSubviews() {
+        super.layoutSubviews()
+        
+        onLayoutSubviews?()
+    }
 }
-@IBDesignable
-public class WobbingControlWithIcon: WobbingButton {
 
+@IBDesignable
+open class WobbingIcon: WobbingButton {
+    
     public var imageView : UIImageView = {
         let iw = UIImageView()
         return iw
     }()
-
+    
     @IBInspectable
     public var image:UIImage? {
         get{
@@ -135,16 +143,16 @@ public class WobbingControlWithIcon: WobbingButton {
             imageView.image = newValue
         }
     }
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         buildImageView()
     }
-
-    required init?(coder aDecoder: NSCoder) {
+    
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         buildImageView()
     }
-
+    
     private func setImageView(imageView: UIImageView) {
         imageView.contentMode = .scaleAspectFit
         imageView.translatesAutoresizingMaskIntoConstraints = false
@@ -154,7 +162,7 @@ public class WobbingControlWithIcon: WobbingButton {
         imageView.rightAnchor.constraint(equalTo: rightAnchor, constant: 0).isActive = true
         imageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 0).isActive = true
     }
-
+    
     public func buildImageView() {
         onTapAction = { [weak self] in
             self?.sendActions(for: .allTouchEvents)
@@ -162,14 +170,20 @@ public class WobbingControlWithIcon: WobbingButton {
         setImageView(imageView: imageView)
         isUserInteractionEnabled = true
     }
-    override public var intrinsicContentSize: CGSize {return imageView.bounds.size}
+    override open var intrinsicContentSize: CGSize {return imageView.bounds.size}
 }
 
 @IBDesignable
-public class RoundedWobbingControl: WobbingButton {
-
-    override public func awakeFromNib() {
+open class RoundedWobbingControl: WobbingButton {
+    override open func awakeFromNib() {
         layer.cornerRadius = bounds.size.height / 2
     }
+}
 
+@IBDesignable
+open class RoundedWobbingIcon: WobbingIcon {
+    override open func awakeFromNib() {
+        layer.cornerRadius = frame.size.height / 2
+        layer.masksToBounds = true
+    }
 }
