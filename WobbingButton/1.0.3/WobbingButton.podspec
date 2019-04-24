@@ -20,7 +20,7 @@ WobbingControlWithIcon is a WobbingButton subclass, is best used with monochrome
                        DESC
 
   s.homepage         = 'https://github.com/c2mInc/WobbingButton'
-  s.screenshots     = 'https://github.com/c2mInc/WobbingButton/blob/master/ss1.png?raw=true', 'https://github.com/c2mInc/WobbingButton/blob/master/ss2.png?raw=true', 'https://github.com/c2mInc/WobbingButton/blob/master/ss3.png?raw=true', 'https://github.com/c2mInc/WobbingButton/blob/master/ss4.png?raw=true'
+  s.screenshots      = 'https://github.com/c2mInc/WobbingButton/blob/master/WobbingButton.png?raw=true', 'https://github.com/c2mInc/WobbingButton/blob/master/RoundedWobbingButton.png?raw=true', 'https://github.com/c2mInc/WobbingButton/blob/master/WobbingIcon.png?raw=true', 'https://github.com/c2mInc/WobbingButton/blob/master/RoundedWobbingIcon.png?raw=true'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'erkekin' => 'erkekin@gmail.com' }
   s.source           = { :git => 'https://github.com/c2mInc/WobbingButton.git', :tag => s.version.to_s }
