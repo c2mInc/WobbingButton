@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'WobbingButton'
   s.version          = '1.0.3'
   s.summary          = 'A storyboard friendly UIButton replacement. It wobbs too!'
-  s.swift_version    = '4.0'
+  s.swift_version    = '4.2'
   s.description      = <<-DESC
 UIButton is not enough. Replace it now.
 WobbingButton is a UIControl, a hassle free storyboard friendly UI component.
