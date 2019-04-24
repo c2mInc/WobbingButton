@@ -7,303 +7,281 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AAA16885B3683E668CAB9B306C9DC22 /* Pods-WobbingButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E70E107DA7EC9421DD5B8696E1A6C2 /* Pods-WobbingButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4816ED951EABC7A7C1B00B7DE304B77E /* Pods-WobbingButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142B810B43C9616FE1AA9F8C219A5FA9 /* Pods-WobbingButton_Example-dummy.m */; };
-		492410AFAE97B502A314BA250DB2D67C /* Pods-WobbingButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D973A73A3FACBAC261B0A6FE7D5947 /* Pods-WobbingButton_Tests-dummy.m */; };
-		595E3B5E821A62ED89063BC355584D41 /* WobbingButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B81303AA4DC9DCD1D713CE39263C8D /* WobbingButton-dummy.m */; };
-		5DEDDAD3E3609AED7275E6DA7415629E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		651D52BE805AD1A655EAA843DC1ACFE3 /* WobbingButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B8BEDC6C6F8BC552ADE8487FFE10F7C /* WobbingButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE398B7906BC24EC65A21AB414902C1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		B1F43604E5D9C6235D226621B252619C /* WobbingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5993DAE1609C13F59B369CAFEF5F1F /* WobbingButton.swift */; };
-		BCC88FC319A370DE126278335D4107E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		D897A6C44F5FCE21366DA91A685345C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		DA6CA50FFAEC07B4927E25B36982EFB6 /* Pods-WobbingButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8934437E8648C386ECE88F8B9B2F436 /* Pods-WobbingButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10DE7CAF3C1F324EB6357F9F9EDB7279 /* Pods-WobbingButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7740A6D7D91860264C4B9C53861DB9A /* Pods-WobbingButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1974F6F56F761B8259D9DBD0A9F2635D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		1F69EEA5379B075B69E3F54E72D832BF /* Pods-WobbingButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B61FEEAB3DDAE98E70070E808AF4FC /* Pods-WobbingButton_Tests-dummy.m */; };
+		2080E2C1FCB9A63DDC9C212B3199B6B0 /* Pods-WobbingButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B77335D0EBA2E0740D7051E227CDEF3 /* Pods-WobbingButton_Example-dummy.m */; };
+		323A3BA83875F8294E95005687E5C0A5 /* WobbingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF7AAA0964D2E140555E8919AD1CC85 /* WobbingButton.swift */; };
+		519CD46E90E82BD0F9762C99CB2A4D7A /* WobbingButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E77B993D235437A3322748F121C551 /* WobbingButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		755F3FBA3F6F8E69BFC95D850751E294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		A80DE1461EF45677767422BEE819BFB4 /* Pods-WobbingButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA6BE7D3D75C27E5A6A3FC00925BCEC /* Pods-WobbingButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE44728338DEC024FDA90432C59BD681 /* WobbingButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6869C16F03340B70DABF9875414280E2 /* WobbingButton-dummy.m */; };
+		C42405C5E3B2E762A5B50F7E620E691E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		CC62B16A804500820A0C38630099F7BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2E4C7F228D0DAF313E436EC6E7A8388B /* PBXContainerItemProxy */ = {
+		6E15DC151EFB1C84757B763F39318651 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D6E0C5C2F29F2B74628C5907831841D7;
+			remoteGlobalIDString = CB92BBC26F51184C72FC339155E08FB1;
 			remoteInfo = WobbingButton;
 		};
-		E5937795488E2823641C745E2D170AA9 /* PBXContainerItemProxy */ = {
+		A7AC67784F494C0C1F4EF70BCCF45183 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE74F064DF83467A034B8DE424DF5A28;
+			remoteGlobalIDString = D84A54551FA7AD796C07A2D9BC24FBFF;
 			remoteInfo = "Pods-WobbingButton_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05D75B413EDB281313BBD42E2A8E467C /* Pods-WobbingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		05D973A73A3FACBAC261B0A6FE7D5947 /* Pods-WobbingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WobbingButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		0B8BEDC6C6F8BC552ADE8487FFE10F7C /* WobbingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WobbingButton-umbrella.h"; sourceTree = "<group>"; };
-		1080D684EB868450B4566160DAAD483D /* Pods-WobbingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WobbingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1271EF04AF7D264E9D2B48CF5B972CFA /* Pods-WobbingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		142B810B43C9616FE1AA9F8C219A5FA9 /* Pods-WobbingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WobbingButton_Example-dummy.m"; sourceTree = "<group>"; };
-		24291532576C56451FDCEEA1308505F3 /* WobbingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WobbingButton-prefix.pch"; sourceTree = "<group>"; };
-		31ACAAA032351C11DFCC3EB299FC2E74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F59FF271F8F0B817054DAD3BAE0FE3A /* Pods-WobbingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5CB1A3D7DF30BE4FB04BB0EE850DA59F /* Pods-WobbingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WobbingButton_Example.modulemap"; sourceTree = "<group>"; };
-		6A6E2F8F7C53071E8B36976102AB6A81 /* Pods_WobbingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WobbingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D4B0EEB558E307CA0A186E6E4BAA1BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73D8612C6DB6EB4E608E4457E67D0267 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A5993DAE1609C13F59B369CAFEF5F1F /* WobbingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WobbingButton.swift; path = WobbingButton/Classes/WobbingButton.swift; sourceTree = "<group>"; };
-		7E8A8C35D7C03FDD0C6C81291EFE9CAD /* Pods-WobbingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WobbingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7F70C0A20B1AF382B42F9E8D7D879BC8 /* Pods-WobbingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8449A204C824D8793F9B086383406616 /* Pods-WobbingButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WobbingButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		84BDB3A6C088DD912A0DEDD83B7C242E /* WobbingButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = WobbingButton.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		90EAD73CFA0CB88909420A1A859C5FE1 /* Pods-WobbingButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WobbingButton_Tests-resources.sh"; sourceTree = "<group>"; };
-		90FE184F99086805B033FE3333DB698A /* WobbingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WobbingButton.modulemap; sourceTree = "<group>"; };
-		922DABCAEB2EF3973FF1B6761F6ECE6E /* Pods-WobbingButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WobbingButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A0E70E107DA7EC9421DD5B8696E1A6C2 /* Pods-WobbingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WobbingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B2C5DF6957F38967671768939DA1AAC9 /* WobbingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WobbingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C5C3A04E74B90FAE5B8A48A08169F6F4 /* Pods-WobbingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WobbingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C8934437E8648C386ECE88F8B9B2F436 /* Pods-WobbingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WobbingButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		CDF45D4D246C4207BBD396E49863F9FD /* Pods-WobbingButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WobbingButton_Example-resources.sh"; sourceTree = "<group>"; };
-		CE03A9E80BE55CA01A135518232478A3 /* Pods-WobbingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WobbingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF0D219CEF5515DFA08DAE685E644758 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E2B934D75B43ACCA40C36B8A259D128E /* Pods_WobbingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WobbingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0DEE831B9735953AFFE3C08F534A400 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F1B81303AA4DC9DCD1D713CE39263C8D /* WobbingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WobbingButton-dummy.m"; sourceTree = "<group>"; };
-		F74BA07750A50B6E7641E3BF6E662C76 /* WobbingButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WobbingButton.xcconfig; sourceTree = "<group>"; };
-		F796D828E8169A3FD98464EC67276FE6 /* Pods-WobbingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WobbingButton_Tests.modulemap"; sourceTree = "<group>"; };
+		03D5B4C70AEE4FCC5AF0BE78296B3702 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05CE51471CDC83A6B57BC554B183F563 /* Pods-WobbingButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WobbingButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18625B7B4E4185482EB94E53B4EC29BC /* Pods-WobbingButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WobbingButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		19E77B993D235437A3322748F121C551 /* WobbingButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WobbingButton-umbrella.h"; sourceTree = "<group>"; };
+		25EAA4E9E763D297F69202D93461A757 /* Pods-WobbingButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WobbingButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		264F92AF62204CADA73DA59F367FABC2 /* Pods_WobbingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WobbingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A821F742CBF0919ADDDE4638812463D /* WobbingButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WobbingButton.modulemap; sourceTree = "<group>"; };
+		2BA6BE7D3D75C27E5A6A3FC00925BCEC /* Pods-WobbingButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WobbingButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		33A6001E656512856777A5D304CCC651 /* WobbingButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WobbingButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38349C7A557D76F92BBAE507051D7186 /* Pods-WobbingButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WobbingButton_Example.modulemap"; sourceTree = "<group>"; };
+		38B61FEEAB3DDAE98E70070E808AF4FC /* Pods-WobbingButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WobbingButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		3EF7AAA0964D2E140555E8919AD1CC85 /* WobbingButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WobbingButton.swift; path = WobbingButton/Classes/WobbingButton.swift; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B77335D0EBA2E0740D7051E227CDEF3 /* Pods-WobbingButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WobbingButton_Example-dummy.m"; sourceTree = "<group>"; };
+		68296938B965B5B3752FA09FABA0BF46 /* Pods-WobbingButton_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WobbingButton_Tests-Info.plist"; sourceTree = "<group>"; };
+		6869C16F03340B70DABF9875414280E2 /* WobbingButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WobbingButton-dummy.m"; sourceTree = "<group>"; };
+		74684A226A419EFC87C0A4C519AFBE7D /* Pods-WobbingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9195F41A54D06691209868E17FC29120 /* Pods-WobbingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		94A291688D87D05D8C90ABA26E65AD5A /* Pods-WobbingButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WobbingButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3EA22AF95539C49A0736834589D7716 /* Pods_WobbingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WobbingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71CD7D4C65A5356419D4DC36C7A0919 /* Pods-WobbingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B168975D128B8AC6F76DA5566AE5D4A8 /* WobbingButton.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WobbingButton.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7740A6D7D91860264C4B9C53861DB9A /* Pods-WobbingButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WobbingButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		B9052A538699FBBD894CC0301BADE280 /* WobbingButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WobbingButton-prefix.pch"; sourceTree = "<group>"; };
+		BC273B51C9BB041A8EAABA9B3DA5BAB7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BD4C3383E63EC998C047E8184D9D93FB /* WobbingButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WobbingButton-Info.plist"; sourceTree = "<group>"; };
+		BFBADD23A79A3F3B86AB229E27C7C40E /* Pods-WobbingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WobbingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DB55E53F10162BB156628D8CDFAC101E /* Pods-WobbingButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WobbingButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E8C886BA282D724B5E10245306709067 /* Pods-WobbingButton_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WobbingButton_Example-Info.plist"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F830FDBA784A9AA2E28F445719F66986 /* Pods-WobbingButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WobbingButton_Tests.modulemap"; sourceTree = "<group>"; };
+		FD72FEF06D983F1A98C3B8731F3E05D5 /* WobbingButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WobbingButton.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A54061D2DA58F0045D5AEF3BE7F3680 /* Frameworks */ = {
+		000B37A319CB4AD744A8FBFD8A6E65E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCC88FC319A370DE126278335D4107E8 /* Foundation.framework in Frameworks */,
+				755F3FBA3F6F8E69BFC95D850751E294 /* Foundation.framework in Frameworks */,
+				C42405C5E3B2E762A5B50F7E620E691E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99F64C5D4C371CE765F684672721DE18 /* Frameworks */ = {
+		B2F1B3575FA9AD1C82074505EEDEBEBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D897A6C44F5FCE21366DA91A685345C8 /* Foundation.framework in Frameworks */,
-				AE398B7906BC24EC65A21AB414902C1C /* UIKit.framework in Frameworks */,
+				1974F6F56F761B8259D9DBD0A9F2635D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A68FF257CC0E9D0A463EFDE4C7546BFD /* Frameworks */ = {
+		C5FDBE0DDD676D4D63640C4FB2134AD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DEDDAD3E3609AED7275E6DA7415629E /* Foundation.framework in Frameworks */,
+				CC62B16A804500820A0C38630099F7BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1638F9DA1768B9716659C25D0E4B6657 /* Products */ = {
+		059DA2FAE1484AF1F3EC8A91358F9001 /* Pods-WobbingButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6A6E2F8F7C53071E8B36976102AB6A81 /* Pods_WobbingButton_Example.framework */,
-				E2B934D75B43ACCA40C36B8A259D128E /* Pods_WobbingButton_Tests.framework */,
-				B2C5DF6957F38967671768939DA1AAC9 /* WobbingButton.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2723E04093273CD82AE2145A9F741623 /* Pods-WobbingButton_Example */ = {
-			isa = PBXGroup;
-			children = (
-				31ACAAA032351C11DFCC3EB299FC2E74 /* Info.plist */,
-				5CB1A3D7DF30BE4FB04BB0EE850DA59F /* Pods-WobbingButton_Example.modulemap */,
-				CE03A9E80BE55CA01A135518232478A3 /* Pods-WobbingButton_Example-acknowledgements.markdown */,
-				7E8A8C35D7C03FDD0C6C81291EFE9CAD /* Pods-WobbingButton_Example-acknowledgements.plist */,
-				142B810B43C9616FE1AA9F8C219A5FA9 /* Pods-WobbingButton_Example-dummy.m */,
-				C5C3A04E74B90FAE5B8A48A08169F6F4 /* Pods-WobbingButton_Example-frameworks.sh */,
-				CDF45D4D246C4207BBD396E49863F9FD /* Pods-WobbingButton_Example-resources.sh */,
-				C8934437E8648C386ECE88F8B9B2F436 /* Pods-WobbingButton_Example-umbrella.h */,
-				4F59FF271F8F0B817054DAD3BAE0FE3A /* Pods-WobbingButton_Example.debug.xcconfig */,
-				7F70C0A20B1AF382B42F9E8D7D879BC8 /* Pods-WobbingButton_Example.release.xcconfig */,
-			);
-			name = "Pods-WobbingButton_Example";
-			path = "Target Support Files/Pods-WobbingButton_Example";
-			sourceTree = "<group>";
-		};
-		3956CEC55DD029EE755E593ED5E60A55 /* Pods-WobbingButton_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6D4B0EEB558E307CA0A186E6E4BAA1BE /* Info.plist */,
-				F796D828E8169A3FD98464EC67276FE6 /* Pods-WobbingButton_Tests.modulemap */,
-				1080D684EB868450B4566160DAAD483D /* Pods-WobbingButton_Tests-acknowledgements.markdown */,
-				8449A204C824D8793F9B086383406616 /* Pods-WobbingButton_Tests-acknowledgements.plist */,
-				05D973A73A3FACBAC261B0A6FE7D5947 /* Pods-WobbingButton_Tests-dummy.m */,
-				922DABCAEB2EF3973FF1B6761F6ECE6E /* Pods-WobbingButton_Tests-frameworks.sh */,
-				90EAD73CFA0CB88909420A1A859C5FE1 /* Pods-WobbingButton_Tests-resources.sh */,
-				A0E70E107DA7EC9421DD5B8696E1A6C2 /* Pods-WobbingButton_Tests-umbrella.h */,
-				05D75B413EDB281313BBD42E2A8E467C /* Pods-WobbingButton_Tests.debug.xcconfig */,
-				1271EF04AF7D264E9D2B48CF5B972CFA /* Pods-WobbingButton_Tests.release.xcconfig */,
+				F830FDBA784A9AA2E28F445719F66986 /* Pods-WobbingButton_Tests.modulemap */,
+				25EAA4E9E763D297F69202D93461A757 /* Pods-WobbingButton_Tests-acknowledgements.markdown */,
+				94A291688D87D05D8C90ABA26E65AD5A /* Pods-WobbingButton_Tests-acknowledgements.plist */,
+				38B61FEEAB3DDAE98E70070E808AF4FC /* Pods-WobbingButton_Tests-dummy.m */,
+				68296938B965B5B3752FA09FABA0BF46 /* Pods-WobbingButton_Tests-Info.plist */,
+				2BA6BE7D3D75C27E5A6A3FC00925BCEC /* Pods-WobbingButton_Tests-umbrella.h */,
+				A71CD7D4C65A5356419D4DC36C7A0919 /* Pods-WobbingButton_Tests.debug.xcconfig */,
+				9195F41A54D06691209868E17FC29120 /* Pods-WobbingButton_Tests.release.xcconfig */,
 			);
 			name = "Pods-WobbingButton_Tests";
 			path = "Target Support Files/Pods-WobbingButton_Tests";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+		21BC2E14B756F15DE667CFBD21B02C5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
-				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+				A3EA22AF95539C49A0736834589D7716 /* Pods_WobbingButton_Example.framework */,
+				264F92AF62204CADA73DA59F367FABC2 /* Pods_WobbingButton_Tests.framework */,
+				33A6001E656512856777A5D304CCC651 /* WobbingButton.framework */,
 			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		5FF05874453CFC853D1BEDD8F2B198C3 /* Development Pods */ = {
+		4567DA56354938CC37B7D0C8BB9115EB /* Pods-WobbingButton_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D5642EDED94F0CC6891257DCC2E37689 /* WobbingButton */,
+				38349C7A557D76F92BBAE507051D7186 /* Pods-WobbingButton_Example.modulemap */,
+				05CE51471CDC83A6B57BC554B183F563 /* Pods-WobbingButton_Example-acknowledgements.markdown */,
+				18625B7B4E4185482EB94E53B4EC29BC /* Pods-WobbingButton_Example-acknowledgements.plist */,
+				5B77335D0EBA2E0740D7051E227CDEF3 /* Pods-WobbingButton_Example-dummy.m */,
+				DB55E53F10162BB156628D8CDFAC101E /* Pods-WobbingButton_Example-frameworks.sh */,
+				E8C886BA282D724B5E10245306709067 /* Pods-WobbingButton_Example-Info.plist */,
+				B7740A6D7D91860264C4B9C53861DB9A /* Pods-WobbingButton_Example-umbrella.h */,
+				BFBADD23A79A3F3B86AB229E27C7C40E /* Pods-WobbingButton_Example.debug.xcconfig */,
+				74684A226A419EFC87C0A4C519AFBE7D /* Pods-WobbingButton_Example.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Pods-WobbingButton_Example";
+			path = "Target Support Files/Pods-WobbingButton_Example";
 			sourceTree = "<group>";
 		};
-		6DA2005D9421598979725096EC4C52F8 /* Pod */ = {
+		4DA4CF538BF4C2D885CF2F249CA6A000 /* WobbingButton */ = {
 			isa = PBXGroup;
 			children = (
-				F0DEE831B9735953AFFE3C08F534A400 /* LICENSE */,
-				CF0D219CEF5515DFA08DAE685E644758 /* README.md */,
-				84BDB3A6C088DD912A0DEDD83B7C242E /* WobbingButton.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6EF0F59F83B307E8A1F2BB4CC4D712EE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2723E04093273CD82AE2145A9F741623 /* Pods-WobbingButton_Example */,
-				3956CEC55DD029EE755E593ED5E60A55 /* Pods-WobbingButton_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		70C0A26C1CB04131B9C20D7866D5F7CF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				73D8612C6DB6EB4E608E4457E67D0267 /* Info.plist */,
-				90FE184F99086805B033FE3333DB698A /* WobbingButton.modulemap */,
-				F74BA07750A50B6E7641E3BF6E662C76 /* WobbingButton.xcconfig */,
-				F1B81303AA4DC9DCD1D713CE39263C8D /* WobbingButton-dummy.m */,
-				24291532576C56451FDCEEA1308505F3 /* WobbingButton-prefix.pch */,
-				0B8BEDC6C6F8BC552ADE8487FFE10F7C /* WobbingButton-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WobbingButton";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				5FF05874453CFC853D1BEDD8F2B198C3 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				1638F9DA1768B9716659C25D0E4B6657 /* Products */,
-				6EF0F59F83B307E8A1F2BB4CC4D712EE /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D5642EDED94F0CC6891257DCC2E37689 /* WobbingButton */ = {
-			isa = PBXGroup;
-			children = (
-				7A5993DAE1609C13F59B369CAFEF5F1F /* WobbingButton.swift */,
-				6DA2005D9421598979725096EC4C52F8 /* Pod */,
-				70C0A26C1CB04131B9C20D7866D5F7CF /* Support Files */,
+				3EF7AAA0964D2E140555E8919AD1CC85 /* WobbingButton.swift */,
+				9B0D2BA10BFCB92493756B9735B5DBA9 /* Pod */,
+				56AA5FBFF4E1340977FE37F735F9E688 /* Support Files */,
 			);
 			name = WobbingButton;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		56AA5FBFF4E1340977FE37F735F9E688 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A821F742CBF0919ADDDE4638812463D /* WobbingButton.modulemap */,
+				FD72FEF06D983F1A98C3B8731F3E05D5 /* WobbingButton.xcconfig */,
+				6869C16F03340B70DABF9875414280E2 /* WobbingButton-dummy.m */,
+				BD4C3383E63EC998C047E8184D9D93FB /* WobbingButton-Info.plist */,
+				B9052A538699FBBD894CC0301BADE280 /* WobbingButton-prefix.pch */,
+				19E77B993D235437A3322748F121C551 /* WobbingButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WobbingButton";
+			sourceTree = "<group>";
+		};
+		7405ECD7DDE64EE21AE6D72366027028 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4567DA56354938CC37B7D0C8BB9115EB /* Pods-WobbingButton_Example */,
+				059DA2FAE1484AF1F3EC8A91358F9001 /* Pods-WobbingButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B0D2BA10BFCB92493756B9735B5DBA9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				03D5B4C70AEE4FCC5AF0BE78296B3702 /* LICENSE */,
+				BC273B51C9BB041A8EAABA9B3DA5BAB7 /* README.md */,
+				B168975D128B8AC6F76DA5566AE5D4A8 /* WobbingButton.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DC7F60988E197D81C31B2EFF13BD552B /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				21BC2E14B756F15DE667CFBD21B02C5F /* Products */,
+				7405ECD7DDE64EE21AE6D72366027028 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7F60988E197D81C31B2EFF13BD552B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DA4CF538BF4C2D885CF2F249CA6A000 /* WobbingButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B8104CCDCEE572FE2A7356A8F5A58CC /* Headers */ = {
+		3EDA5D6ABD73F84BD5FD5D207E390327 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651D52BE805AD1A655EAA843DC1ACFE3 /* WobbingButton-umbrella.h in Headers */,
+				10DE7CAF3C1F324EB6357F9F9EDB7279 /* Pods-WobbingButton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C187606896AD8D74F807CCE73FB4DC4 /* Headers */ = {
+		AC1635155BED112F7B0D3740CA781E38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAA16885B3683E668CAB9B306C9DC22 /* Pods-WobbingButton_Tests-umbrella.h in Headers */,
+				A80DE1461EF45677767422BEE819BFB4 /* Pods-WobbingButton_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E75321D61AD9034833FA1A7EFAEC111 /* Headers */ = {
+		DFAB729E0EE9623D06F446BFDC1792A6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6CA50FFAEC07B4927E25B36982EFB6 /* Pods-WobbingButton_Example-umbrella.h in Headers */,
+				519CD46E90E82BD0F9762C99CB2A4D7A /* WobbingButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4F2B1BBA74D88BFDFC0D7A5C5BB911F2 /* Pods-WobbingButton_Tests */ = {
+		191A0071F554D9A250EB6B505B643696 /* Pods-WobbingButton_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A4586B972EEB237C50990D02A98C3207 /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Tests" */;
+			buildConfigurationList = 8B9E43118B4C5CF1A6654CFA2279E5E5 /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Tests" */;
 			buildPhases = (
-				E3764DFCF983745BD2E83B5BFAA8D261 /* Sources */,
-				A68FF257CC0E9D0A463EFDE4C7546BFD /* Frameworks */,
-				5C187606896AD8D74F807CCE73FB4DC4 /* Headers */,
+				AC1635155BED112F7B0D3740CA781E38 /* Headers */,
+				9B4F60C85D35FB2E3BDFA1ADF4E2D5E8 /* Sources */,
+				C5FDBE0DDD676D4D63640C4FB2134AD5 /* Frameworks */,
+				862751DB85466E416F1CDBDCCD7705E4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0BE9F02CF129ABBAE93C4E600117F1A1 /* PBXTargetDependency */,
+				C61343A79DFDF4A1A562A723A228736F /* PBXTargetDependency */,
 			);
 			name = "Pods-WobbingButton_Tests";
 			productName = "Pods-WobbingButton_Tests";
-			productReference = E2B934D75B43ACCA40C36B8A259D128E /* Pods_WobbingButton_Tests.framework */;
+			productReference = 264F92AF62204CADA73DA59F367FABC2 /* Pods_WobbingButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BE74F064DF83467A034B8DE424DF5A28 /* Pods-WobbingButton_Example */ = {
+		CB92BBC26F51184C72FC339155E08FB1 /* WobbingButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E5B32F35A4927C40B59494075163E5A /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Example" */;
+			buildConfigurationList = 497947780C8803E0FBC3DBA6A7E9BB14 /* Build configuration list for PBXNativeTarget "WobbingButton" */;
 			buildPhases = (
-				96E29F1A031AEC0C087FF3900DD94F3C /* Sources */,
-				1A54061D2DA58F0045D5AEF3BE7F3680 /* Frameworks */,
-				9E75321D61AD9034833FA1A7EFAEC111 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0B21809E6103B776AE928D9099189FB9 /* PBXTargetDependency */,
-			);
-			name = "Pods-WobbingButton_Example";
-			productName = "Pods-WobbingButton_Example";
-			productReference = 6A6E2F8F7C53071E8B36976102AB6A81 /* Pods_WobbingButton_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D6E0C5C2F29F2B74628C5907831841D7 /* WobbingButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E2B2C2493EEE9CAC272BBF0EF3AA4C3C /* Build configuration list for PBXNativeTarget "WobbingButton" */;
-			buildPhases = (
-				6B1501239F3B09B8892495CE9AA8C35C /* Sources */,
-				99F64C5D4C371CE765F684672721DE18 /* Frameworks */,
-				3B8104CCDCEE572FE2A7356A8F5A58CC /* Headers */,
+				DFAB729E0EE9623D06F446BFDC1792A6 /* Headers */,
+				DCD3A629582DF8DB9E2B53C08758568F /* Sources */,
+				000B37A319CB4AD744A8FBFD8A6E65E7 /* Frameworks */,
+				84E19C3FB44B287543E1163524C08FAB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -311,85 +289,199 @@
 			);
 			name = WobbingButton;
 			productName = WobbingButton;
-			productReference = B2C5DF6957F38967671768939DA1AAC9 /* WobbingButton.framework */;
+			productReference = 33A6001E656512856777A5D304CCC651 /* WobbingButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D84A54551FA7AD796C07A2D9BC24FBFF /* Pods-WobbingButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5291E1493B6A7D98BF49C0B6AE58BC7D /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Example" */;
+			buildPhases = (
+				3EDA5D6ABD73F84BD5FD5D207E390327 /* Headers */,
+				4EC9A0EA9A3DC183E51317DCDA90D8F3 /* Sources */,
+				B2F1B3575FA9AD1C82074505EEDEBEBD /* Frameworks */,
+				ED88E35EC3650EC8716498EAD4BCF516 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E93B10C4A563E23968E46E14ED516DAE /* PBXTargetDependency */,
+			);
+			name = "Pods-WobbingButton_Example";
+			productName = "Pods-WobbingButton_Example";
+			productReference = A3EA22AF95539C49A0736834589D7716 /* Pods_WobbingButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1638F9DA1768B9716659C25D0E4B6657 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 21BC2E14B756F15DE667CFBD21B02C5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE74F064DF83467A034B8DE424DF5A28 /* Pods-WobbingButton_Example */,
-				4F2B1BBA74D88BFDFC0D7A5C5BB911F2 /* Pods-WobbingButton_Tests */,
-				D6E0C5C2F29F2B74628C5907831841D7 /* WobbingButton */,
+				D84A54551FA7AD796C07A2D9BC24FBFF /* Pods-WobbingButton_Example */,
+				191A0071F554D9A250EB6B505B643696 /* Pods-WobbingButton_Tests */,
+				CB92BBC26F51184C72FC339155E08FB1 /* WobbingButton */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		84E19C3FB44B287543E1163524C08FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862751DB85466E416F1CDBDCCD7705E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED88E35EC3650EC8716498EAD4BCF516 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6B1501239F3B09B8892495CE9AA8C35C /* Sources */ = {
+		4EC9A0EA9A3DC183E51317DCDA90D8F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				595E3B5E821A62ED89063BC355584D41 /* WobbingButton-dummy.m in Sources */,
-				B1F43604E5D9C6235D226621B252619C /* WobbingButton.swift in Sources */,
+				2080E2C1FCB9A63DDC9C212B3199B6B0 /* Pods-WobbingButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96E29F1A031AEC0C087FF3900DD94F3C /* Sources */ = {
+		9B4F60C85D35FB2E3BDFA1ADF4E2D5E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4816ED951EABC7A7C1B00B7DE304B77E /* Pods-WobbingButton_Example-dummy.m in Sources */,
+				1F69EEA5379B075B69E3F54E72D832BF /* Pods-WobbingButton_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3764DFCF983745BD2E83B5BFAA8D261 /* Sources */ = {
+		DCD3A629582DF8DB9E2B53C08758568F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492410AFAE97B502A314BA250DB2D67C /* Pods-WobbingButton_Tests-dummy.m in Sources */,
+				AE44728338DEC024FDA90432C59BD681 /* WobbingButton-dummy.m in Sources */,
+				323A3BA83875F8294E95005687E5C0A5 /* WobbingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B21809E6103B776AE928D9099189FB9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WobbingButton;
-			target = D6E0C5C2F29F2B74628C5907831841D7 /* WobbingButton */;
-			targetProxy = 2E4C7F228D0DAF313E436EC6E7A8388B /* PBXContainerItemProxy */;
-		};
-		0BE9F02CF129ABBAE93C4E600117F1A1 /* PBXTargetDependency */ = {
+		C61343A79DFDF4A1A562A723A228736F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WobbingButton_Example";
-			target = BE74F064DF83467A034B8DE424DF5A28 /* Pods-WobbingButton_Example */;
-			targetProxy = E5937795488E2823641C745E2D170AA9 /* PBXContainerItemProxy */;
+			target = D84A54551FA7AD796C07A2D9BC24FBFF /* Pods-WobbingButton_Example */;
+			targetProxy = A7AC67784F494C0C1F4EF70BCCF45183 /* PBXContainerItemProxy */;
+		};
+		E93B10C4A563E23968E46E14ED516DAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WobbingButton;
+			target = CB92BBC26F51184C72FC339155E08FB1 /* WobbingButton */;
+			targetProxy = 6E15DC151EFB1C84757B763F39318651 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+		0017B649B9A69B80858D47022AA94736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9195F41A54D06691209868E17FC29120 /* Pods-WobbingButton_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Tests/Pods-WobbingButton_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WobbingButton_Tests/Pods-WobbingButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		173A3A88FFA2D7118FE835DED8DE3E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBADD23A79A3F3B86AB229E27C7C40E /* Pods-WobbingButton_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Example/Pods-WobbingButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WobbingButton_Example/Pods-WobbingButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3048B0C5C704DFFF688DA57F5380ED58 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -418,8 +510,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5B0C8287D755FD95091CF35D87FB8B2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -439,21 +589,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		311243C0F7D0D5D3A3C80B6DB810A236 /* Debug */ = {
+		638275AAD9CDD87A582FB06D1F108103 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05D75B413EDB281313BBD42E2A8E467C /* Pods-WobbingButton_Tests.debug.xcconfig */;
+			baseConfigurationReference = A71CD7D4C65A5356419D4DC36C7A0919 /* Pods-WobbingButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -463,9 +617,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Tests/Pods-WobbingButton_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WobbingButton_Tests/Pods-WobbingButton_Tests.modulemap";
@@ -482,10 +636,11 @@
 			};
 			name = Debug;
 		};
-		3C68ED913804152B190F2AB8E8E80A08 /* Debug */ = {
+		BD9701B08D8481D83E065E60EE149D58 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74BA07750A50B6E7641E3BF6E662C76 /* WobbingButton.xcconfig */;
+			baseConfigurationReference = FD72FEF06D983F1A98C3B8731F3E05D5 /* WobbingButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -496,9 +651,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/WobbingButton/WobbingButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WobbingButton/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/WobbingButton/WobbingButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WobbingButton/WobbingButton.modulemap";
 				PRODUCT_MODULE_NAME = WobbingButton;
@@ -506,18 +661,54 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5B8BF73D4E9018F84AF410F5F43D68AD /* Release */ = {
+		CE1BD7587CA49C4CD29ABCD7814A5782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F74BA07750A50B6E7641E3BF6E662C76 /* WobbingButton.xcconfig */;
+			baseConfigurationReference = 74684A226A419EFC87C0A4C519AFBE7D /* Pods-WobbingButton_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Example/Pods-WobbingButton_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WobbingButton_Example/Pods-WobbingButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB0B0D229D54FCF821BC7F392BAD0662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD72FEF06D983F1A98C3B8731F3E05D5 /* WobbingButton.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,9 +719,9 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/WobbingButton/WobbingButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WobbingButton/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/WobbingButton/WobbingButton-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/WobbingButton/WobbingButton.modulemap";
 				PRODUCT_MODULE_NAME = WobbingButton;
@@ -538,218 +729,53 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C41DC4A27CE5F0CD170F964059EE5D88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F59FF271F8F0B817054DAD3BAE0FE3A /* Pods-WobbingButton_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WobbingButton_Example/Pods-WobbingButton_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		CB0CE725B3D4F81F56E548BBE474E502 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F70C0A20B1AF382B42F9E8D7D879BC8 /* Pods-WobbingButton_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WobbingButton_Example/Pods-WobbingButton_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F5034912BEBB4A0B25A2F46BAB42B868 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1271EF04AF7D264E9D2B48CF5B972CFA /* Pods-WobbingButton_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WobbingButton_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WobbingButton_Tests/Pods-WobbingButton_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
-				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+				5B0C8287D755FD95091CF35D87FB8B2D /* Debug */,
+				3048B0C5C704DFFF688DA57F5380ED58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E5B32F35A4927C40B59494075163E5A /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Example" */ = {
+		497947780C8803E0FBC3DBA6A7E9BB14 /* Build configuration list for PBXNativeTarget "WobbingButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C41DC4A27CE5F0CD170F964059EE5D88 /* Debug */,
-				CB0CE725B3D4F81F56E548BBE474E502 /* Release */,
+				FB0B0D229D54FCF821BC7F392BAD0662 /* Debug */,
+				BD9701B08D8481D83E065E60EE149D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4586B972EEB237C50990D02A98C3207 /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Tests" */ = {
+		5291E1493B6A7D98BF49C0B6AE58BC7D /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				311243C0F7D0D5D3A3C80B6DB810A236 /* Debug */,
-				F5034912BEBB4A0B25A2F46BAB42B868 /* Release */,
+				173A3A88FFA2D7118FE835DED8DE3E55 /* Debug */,
+				CE1BD7587CA49C4CD29ABCD7814A5782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2B2C2493EEE9CAC272BBF0EF3AA4C3C /* Build configuration list for PBXNativeTarget "WobbingButton" */ = {
+		8B9E43118B4C5CF1A6654CFA2279E5E5 /* Build configuration list for PBXNativeTarget "Pods-WobbingButton_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3C68ED913804152B190F2AB8E8E80A08 /* Debug */,
-				5B8BF73D4E9018F84AF410F5F43D68AD /* Release */,
+				638275AAD9CDD87A582FB06D1F108103 /* Debug */,
+				0017B649B9A69B80858D47022AA94736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

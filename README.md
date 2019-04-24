@@ -28,21 +28,26 @@ Alternatively drag and drop WobbingButton.swift file into your project.
 ### WobbingButton
 `WobbingButton` is a UIControl subclass.
 
-![RoundedWobbingButton` has rounded left and right corners](https://github.com/c2mInc/WobbingButton/blob/master/ss2.png?raw=true)
+![](WobbingButton.png?raw=true)
 
 ### RoundedWobbingButton
 `RoundedWobbingButton` is a WobbingButton subclass, it has rounded left and right corners.
 
-![RoundedWobbingButton` has rounded left and right corners](https://github.com/c2mInc/WobbingButton/blob/master/ss3.png?raw=true)
+![](RoundedWobbingButton.png?raw=true)
 
-### WobbingControlWithIcon
-`WobbingControlWithIcon` is too a WobbingButton subclass, it is best used with monochrome icons, set tintColor in storyboard.
+### WobbingIcon
+`WobbingIcon` is too a WobbingButton subclass, it is best used with monochrome icons, set tintColor in storyboard.
 
-![WobbingControlWithIcon` is best used with monochrome icons.](https://github.com/c2mInc/WobbingButton/blob/master/ss4.png?raw=true)
+![](WobbingIcon.png?raw=true)
+
+### RoundedWobbingIcon
+`RoundedWobbingIcon` is a WobbingIcon subclass and it is like a rounded version of WobbingIcon.
+
+![](RoundedWobbingIcon.png?raw=true)
 
 ## Basic Usage
 
-Drag a UIView into a viewcontroller, change its class type to `WobbingButton`, `RoundedWobbingButton` or `WobbingControlWithIcon`. Add a background color, you are set, start wobbling.
+Drag a UIView into a viewcontroller, change its class type to `WobbingButton`, `RoundedWobbingButton`, `WobbingIcon` or `RoundedWobbingIcon`. Add a background color, you are set, start wobbling.
 
 Sometimes it's quite useful to assign closures rather than adding target to methods. WobbingButton provides `onTapAction` and `onLongPressAction` closures to handle those actions gracefully. In addition to touch events like `.touchUpInside`, `.touchDown`, it works with tap and long press closures as well. 
 
@@ -63,9 +68,9 @@ wobbingButton.onLongPressAction = { [weak self] in
 
 ## Requirements
 
-* iOS 9.0+
+* iOS 10.0+
 * Xcode 8.0+
-* Swift 3.0+
+* Swift 4.0+
 
 ## Author
 [Connected2.me](http://connected2.me) / <a href="mailto:erkekin@gmail.com">Erk Ekin</a> <a href="https://twitter.com/erkekin">@erkekin</a>

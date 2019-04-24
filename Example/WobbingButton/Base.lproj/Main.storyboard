@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cdX-cj-nIO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="cdX-cj-nIO">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -87,7 +87,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAV-Gv-Flh" customClass="RoundedWobbingControl" customModule="WobbingButton">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAV-Gv-Flh" customClass="RoundedWobbingButton" customModule="WobbingButton">
                                 <rect key="frame" x="67" y="504" width="185" height="44"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAg-x8-wy6">
@@ -152,7 +152,7 @@
             </objects>
             <point key="canvasLocation" x="168.80000000000001" y="35.532233883058474"/>
         </scene>
-        <!--WobbingControlWithIcon-->
+        <!--WobbingIcon-->
         <scene sceneID="3Re-8H-FTE">
             <objects>
                 <viewController id="vBl-XK-dfT" customClass="ViewController" customModule="WobbingButton_Example" customModuleProvider="target" sceneMemberID="viewController">
@@ -164,15 +164,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WobbingControlWithIcon is a WobbingButton subclass, is best used with monochrome icons, set tintColor in storyboard." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bia-6N-zBP">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WobbingIcon is a WobbingButton subclass, is best used with monochrome icons, set tintColor in storyboard." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bia-6N-zBP">
                                 <rect key="frame" x="36" y="237.5" width="248" height="93"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pwj-cd-94Y" customClass="WobbingControlWithIcon" customModule="WobbingButton">
-                                <rect key="frame" x="119" y="490" width="82" height="48"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pwj-cd-94Y" customClass="WobbingIcon" customModule="WobbingButton">
+                                <rect key="frame" x="110" y="438" width="100" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="8Fb-CA-BAT"/>
+                                    <constraint firstAttribute="height" constant="100" id="ZHD-C6-uuZ"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="image" keyPath="image" value="row-action-report"/>
                                 </userDefinedRuntimeAttributes>
@@ -191,7 +195,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="bia-6N-zBP" secondAttribute="trailing" constant="20" id="bvN-I8-Rs0"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="WobbingControlWithIcon" id="VIy-ZU-hh6"/>
+                    <navigationItem key="navigationItem" title="WobbingIcon" id="VIy-ZU-hh6"/>
                     <connections>
                         <segue destination="3sF-Be-3yS" kind="show" identifier="next" id="8ip-U7-iEC"/>
                     </connections>
@@ -1190,7 +1194,7 @@
             </objects>
             <point key="canvasLocation" x="5889" y="35"/>
         </scene>
-        <!--WobbingControlWithIcon-->
+        <!--RoundedWobbingIcon-->
         <scene sceneID="f7o-T8-YD2">
             <objects>
                 <viewController id="3sF-Be-3yS" customClass="ViewController" customModule="WobbingButton_Example" customModuleProvider="target" sceneMemberID="viewController">
@@ -1202,13 +1206,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WobbingControlWithIcon can either be used to include images. Don't forget to set clipToBounds to true!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kd-Jd-b9T">
-                                <rect key="frame" x="36" y="237.5" width="248" height="93"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RoundedWobbingIcon can either be used to include images." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7kd-Jd-b9T">
+                                <rect key="frame" x="36" y="249" width="248" height="70"/>
                                 <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOf-7b-KZt" customClass="WobbingControlWithIcon" customModule="WobbingButton">
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOf-7b-KZt" customClass="RoundedWobbingIcon" customModule="WobbingButton">
                                 <rect key="frame" x="100" y="418" width="120" height="120"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -1239,7 +1243,7 @@
                             <constraint firstItem="dCg-Hj-xY0" firstAttribute="top" secondItem="mOf-7b-KZt" secondAttribute="bottom" constant="30" id="pDu-Z7-nad"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="WobbingControlWithIcon" id="x6G-nI-1zc"/>
+                    <navigationItem key="navigationItem" title="RoundedWobbingIcon" id="x6G-nI-1zc"/>
                     <connections>
                         <segue destination="duX-w6-A6d" kind="show" identifier="next" id="dEI-Kx-p5i"/>
                     </connections>
