@@ -174,7 +174,7 @@ open class WobbingIcon: WobbingButton {
 }
 
 @IBDesignable
-open class RoundedWobbingControl: WobbingButton {
+open class RoundedWobbingButton: WobbingButton {
     override open func awakeFromNib() {
         layer.cornerRadius = bounds.size.height / 2
     }
